@@ -27,15 +27,15 @@ body {
 }
 
 .bg1 {
-  background-image: url('/images/calendar2.jpg');
+  background-image: url('../images/calendar2.jpg');
 }
 
 .bg2 {
-  background-image: url('/images/flower1.jpg');
+  background-image: url('../images/flower1.jpg');
 }
 
 .bg3 {
-  background-image: url('/images/black3.jpg');
+  background-image: url('../images/black3.jpg');
 }
 
 
