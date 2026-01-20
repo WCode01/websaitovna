@@ -96,7 +96,7 @@ input {
   background: rgba(155, 150, 150, 0.6);
   padding: 70px 30px;
   border-radius: 40px;
-  max-width: 90%;
+  max-width: 80%;
   align-self: center;
 }
 
@@ -132,7 +132,7 @@ h2 {
 /* мутный бокс */
 .date-box {
   background: rgba(139, 108, 108, 0.547);
-  padding: 90px 70px;
+  padding: 60px 40px;
   border-radius: 20px;
   text-align: center;
   font-family: 'Marck Script', cursive;
@@ -143,7 +143,7 @@ h2 {
   display: block;
   margin-bottom: 10px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Marck Script', cursive;
 }
 
@@ -155,7 +155,7 @@ h2 {
   border: none;
   border-bottom: 2px solid #ffffff;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   outline: none;
   font-family: 'Marck Script', cursive;
@@ -167,7 +167,7 @@ h2 {
 }
 
 .btn {
-  font-size: 19px;
+  font-size: 35px;
   background-color: #d49393;
   color: #000;
   font-family: 'Marck Script', cursive;
