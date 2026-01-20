@@ -30,20 +30,23 @@
     </div>
 
 
-    <div id="date" class="bg bg2">
-        <h2>Выбери дату</h2>
-        <div class="date-box">
-            <label>
-                📅 Дата
-                <input type="date">
-            </label>
-            <label>
-                ⏰ Время
-                <input type="time">
-            </label>
-        </div>
-        <img src="images/2gis-logo.png" alt="" class="gis-icon">
-    </div>
+   <div id="date" class="bg bg2">
+    <h2>Выбери дату</h2>
+  <div class="date-box">
+     <div class="field">
+      📅 Дата
+      <input type="date" id="dateInput">
+  </div>
+
+   <div class="field">
+      ⏰ Время
+      <input type="time" id="timeInput">
+  </div>
+    <button onclick="sendToWhatsApp()">Отправить</button>
+    
+  </div>
+  <img src="images/2gis-logo.png" alt="2GIS" class="gis-icon">
+</div>
 
     <div id="place" class="bg bg3">
         <a href="https://2gis.kz/almaty/geo/70000001057218816" target="_blank" class="map-card">
@@ -76,6 +79,23 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        function sendToWhatsApp() {
+            const date = document.getElementById('dateInput').value;
+            const time = document.getElementById('timeInput').value;
+
+            if (!date || !time) {
+                alert('Пожалуйста, выбери дату и время');
+                return;
+            }
+
+            const text = `Я выбрала дату: ${date} и время: ${time}`;
+            const phone = '77001234567';
+
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(text)}`, '_blank');
+        }
     </script>
 
 </body>
