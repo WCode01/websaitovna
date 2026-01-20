@@ -42,7 +42,7 @@
       ⏰ Время
       <input type="time" id="timeInput">
   </div>
-    <button onclick="sendToWhatsApp()">Отправить</button>
+    <button class="btn" onclick="sendToWhatsApp()">Отправить</button>
     
   </div>
   <img src="images/2gis-logo.png" alt="2GIS" class="gis-icon">
@@ -92,7 +92,7 @@
             }
 
             const text = `Я выбрала дату: ${date} и время: ${time}`;
-            const phone = '77001234567';
+            const phone = '77077061409';
 
             window.open(`https://wa.me/${phone}?text=${encodeURIComponent(text)}`, '_blank');
         }
