@@ -124,7 +124,7 @@ h2 {
   margin-top: 150px;
   margin-bottom: 40px;
   color: #fff;
-  font-size: 36px;
+  font-size: 40px;
   text-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
   font-family: 'Marck Script', cursive;
 }
@@ -132,7 +132,7 @@ h2 {
 /* мутный бокс */
 .date-box {
   background: rgba(139, 108, 108, 0.547);
-  padding: 60px 40px;
+  padding: 130px 60px;
   border-radius: 20px;
   text-align: center;
   font-family: 'Marck Script', cursive;
@@ -153,9 +153,9 @@ h2 {
   margin-top: 10px;
   background: transparent;
   border: none;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   outline: none;
   font-family: 'Marck Script', cursive;
@@ -237,7 +237,7 @@ h2 {
 
 .bg3 p {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   padding-top: 80px;
   text-align: center;
   margin-left: 20px;
